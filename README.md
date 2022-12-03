@@ -1,3 +1,22 @@
+## Run on Virtualenv Environment
+```sh
+pip install virtualenv
+
+cd [Project_Directory]
+virtualenv [Virtualenv_Name]
+source [Virtualenv_Name]/bin/activate
+# (to exit venv) deactivate
+```
+## Installation
+```sh
+pip install scikit-learn
+pip install scipy
+pip install numpy
+
+pip install konlpy
+```
+
+
 ## Re-iplementation of TextRank [^1]
 
 To summarize La La Land user comments by keyword extraction with part-of-speech tagged documents
